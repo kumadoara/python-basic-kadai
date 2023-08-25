@@ -1,0 +1,7 @@
+uppresede = 10
+lowerside = 20
+height =5
+
+area = (upperside + lowerside) * height / 2
+
+print(area + '㎠')
