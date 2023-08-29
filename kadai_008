@@ -1,1 +1,9 @@
-
+for var in range(1,x)  #xは処理する整数の範囲+1を記載 
+  if var % 15 == 0:
+    print("FizzBuzz") 
+  elif var % 3 == 0:
+    print("Fizz") 
+  elif var % 5 == 0:
+    print("Buzz") 
+  else:
+    print(var)
