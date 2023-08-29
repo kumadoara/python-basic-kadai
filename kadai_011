@@ -1,1 +1,12 @@
+list = ["水","金","地","火","木","土","天","海","冥"]
+for list_1 in list:
+    print(list_1)
 
+
+list = ["水","金","地","火","木","土","天","海","冥"]
+it = iter(list)
+while True:
+    try:
+        print(next(it))
+    except StopIteration:
+        break
