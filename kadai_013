@@ -3,4 +3,5 @@ def add_sales_tax(price,tax):
   total = price + tax
   print(f"{total}円")
 
+add_sales_tax(price,tax)
 
