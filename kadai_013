@@ -1,1 +1,6 @@
+def add_sales_tax(price,tax):
+  tax = price * 0.1
+  total = price + tax
+  print(f"{total}円")
+
 
